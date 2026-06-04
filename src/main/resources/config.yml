@@ -1,0 +1,8 @@
+# BigEnderChest Yapılandırması
+# Paper 1.21.1 için 54-slot Ender Sandık eklentisi
+
+# Envanter başlığı (renk kodları desteklenir: & yerine § kullanın)
+inventory-title: "§5§lEnder Sandık §8[54]"
+
+# Vanilla ender sandığına sağ tıklandığında otomatik olarak büyük sandığı aç
+intercept-vanilla: true

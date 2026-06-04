@@ -1,0 +1,24 @@
+name: BigEnderChest
+version: 1.0.0
+main: dev.bigenderchest.BigEnderChest
+api-version: '1.21'
+description: 54-slot double chest sized Ender Chest
+authors: [BigEnderChest]
+
+commands:
+  bigenderchest:
+    description: Opens your 54-slot ender chest
+    aliases: [bec, enderchest]
+    usage: /bigenderchest [player]
+    permission: bigenderchest.use
+
+permissions:
+  bigenderchest.use:
+    description: Allows opening the 54-slot ender chest
+    default: true
+  bigenderchest.others:
+    description: Allows opening another player's ender chest
+    default: op
+  bigenderchest.bypass:
+    description: Bypasses vanilla ender chest and always opens big one
+    default: op
